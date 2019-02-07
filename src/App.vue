@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img height="100" src="./assets/logo.png">
+    <img height="100" src="https://jcalderin91.github.io/platzimusic/logo.png">
     <h1>{{ msg }}</h1>
     <h4>Artistas</h4>
     <div class="artists">
