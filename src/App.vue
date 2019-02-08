@@ -8,7 +8,7 @@
         <div class="photo">
           <img height="100" :src="artist.image[1]['#text']">
         </div>
-        <h6 class="name"><a :href="artist.url">#{{index + 1}} - {{ artist.name }}</a></h6>
+        <h6 class="name">#{{index + 1}} - {{ artist.name }}</h6>
       </div> 
     </div>
   </div>
@@ -67,12 +67,13 @@ a
 
 .artist
   padding 10px
+  transition all .3s ease
 .name
   margin-top 0
 
 .photo img
   border-radius 50%
-a
-  text-decoration none
-  
+
+ .artist:hover
+   transform scale(1.2)
 </style>
