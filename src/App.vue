@@ -58,6 +58,7 @@ a
   color #42b983
 
 .artists
+  margin 0 auto
   width 800px
   max-width 100% 
   display flex
