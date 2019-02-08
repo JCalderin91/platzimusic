@@ -56,7 +56,10 @@ li
 
 a
   color #42b983
+
 .artists
+  width 800px
+  max-width 100% 
   display flex
   flex-wrap wrap
   justify-content space-around
