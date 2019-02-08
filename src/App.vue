@@ -4,11 +4,11 @@
     <h1>{{ msg }}</h1>
     <h4>Artistas</h4>
     <div class="artists">
-      <div class="artist" v-for="artist in artists">
+      <div class="artist" v-for="(artist,index) in artists">
         <div class="photo">
           <img height="100" :src="artist.image[1]['#text']">
         </div>
-        <h6 class="name">{{ artist.name }}</h6>
+        <h6 class="name">#{{index}} - {{ artist.name }}</h6>
       </div> 
     </div>
   </div>
